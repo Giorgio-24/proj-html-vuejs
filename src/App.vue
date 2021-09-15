@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <header>
-      <HeaderTop />
-      <HeaderBottom />
+    <header class="pt-5">
+      <div class="container">
+        <HeaderTop />
+        <HeaderBottom />
+      </div>
     </header>
     <main></main>
     <footer></footer>
