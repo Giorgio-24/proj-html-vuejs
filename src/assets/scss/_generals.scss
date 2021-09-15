@@ -5,9 +5,14 @@
     box-sizing: border-box;
 }
 
+li{
+    list-style-type: none;
+}
+
 //^HEADER
 
 header {
   height: 750px;
   background-color: $both-red;
 }
+
