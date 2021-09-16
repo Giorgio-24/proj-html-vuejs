@@ -25,9 +25,9 @@
           <Events />
         </div>
       </section>
-      <section class="container">
-        <Courses />
-        <CoursesDetails />
+      <section class="container my-5">
+        <Courses class="row" />
+        <CoursesDetails class="row" />
       </section>
     </main>
     <footer class="pt-5">
