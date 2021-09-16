@@ -16,18 +16,19 @@
 
 //^COLORS
 
+
+.color-primary{
+  color: $both-red;
+}
+
+.bg-color-primary{
+  background-color: $both-red;
+}
+
 .color-yellow {
   color: $both-yellow;
 }
 
-.color-red{
-  color: $both-red;
-}
-
 .bg-yellow {
   background-color: $both-yellow;
-}
-
-.bg-red{
-  background-color: $both-red;
 }

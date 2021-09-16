@@ -9,7 +9,7 @@
       <a href="#" class="big-button bg-yellow text-white me-5"
         ><i class="fas fa-search me-1"></i> Search courses</a
       >
-      <a href="#" class="big-button bg-white color-red"
+      <a href="#" class="big-button bg-white color-primary"
         ><i class="fas fa-user-plus me-1"></i> Apply for university</a
       >
     </div>
