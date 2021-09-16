@@ -20,6 +20,7 @@
       <section class="bg-color-primary py-5">
         <div class="container">
           <UniYear />
+          <Events />
         </div>
       </section>
     </main>
@@ -37,6 +38,7 @@ import Faculties from "./components/Faculties.vue";
 import FacultiesList from "./components/FacultiesList.vue";
 import SelectedFaculty from "./components/SelectedFaculty.vue";
 import UniYear from "./components/UniYear.vue";
+import Events from "./components/Events.vue";
 
 export default {
   name: "App",
@@ -48,6 +50,7 @@ export default {
     FacultiesList,
     SelectedFaculty,
     UniYear,
+    Events,
   },
   data() {
     return {
