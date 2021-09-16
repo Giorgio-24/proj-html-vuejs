@@ -1,5 +1,16 @@
 <template>
-  <div class="event-card col-4 py-4 px-5 bg-white mx-3 position-relative">
+  <div
+    class="
+      event-card
+      col-4
+      py-4
+      px-5
+      bg-white
+      mx-3
+      text-center
+      position-relative
+    "
+  >
     <h4 class="mt-2">{{ title }}</h4>
     <div class="color-grey"><i class="far fa-calendar-alt"></i> {{ date }}</div>
     <div class="color-grey mb-4">{{ text }}</div>
@@ -23,6 +34,9 @@ export default {
 .event-card {
   border-radius: 15px;
   max-width: 30%;
+  h4 {
+    font-family: "Fredoka One", cursive;
+  }
   a {
     left: 50%;
     transform: translateX(-50%);
