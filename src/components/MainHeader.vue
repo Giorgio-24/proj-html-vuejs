@@ -1,16 +1,16 @@
 <template>
-  <div class="mt-5">
+  <section class="mt-5">
     <Paragraph
+      class="mb-5"
       :icon="icon"
       :title="title"
       :paragraph="paragraph"
       :buttonText="buttonText"
       :buttonColor="buttonColor"
+      :illustration="illustration"
+      :invert="invert"
     />
-    <div class="mt-4 col-5 offset-1">
-      <img class="img-fluid" :src="illustration" alt="" />
-    </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -29,6 +29,7 @@ export default {
       buttonText: "Browse through courses",
       buttonColor: "bg-yellow",
       illustration: require("../assets/img/Graduation-Illustration.png"),
+      invert: false,
     };
   },
 };
