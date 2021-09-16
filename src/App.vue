@@ -10,6 +10,7 @@
       <div class="container">
         <MainHeader class="row mb-5" />
         <Faculties class="row my-5" />
+        <FacultiesList class="row" />
       </div>
     </main>
     <footer class="pt-5">
@@ -23,6 +24,7 @@ import HeaderTop from "./components/HeaderTop.vue";
 import HeaderBottom from "./components/HeaderBottom.vue";
 import MainHeader from "./components/MainHeader.vue";
 import Faculties from "./components/Faculties.vue";
+import FacultiesList from "./components/FacultiesList.vue";
 
 export default {
   name: "App",
@@ -31,6 +33,7 @@ export default {
     HeaderBottom,
     MainHeader,
     Faculties,
+    FacultiesList,
   },
 };
 </script>
