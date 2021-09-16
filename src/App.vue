@@ -7,21 +7,27 @@
       </div>
     </header>
     <main class="pt-5">
-      <div class="container">
-        <MainHeader class="row mb-5" />
-        <Faculties class="row my-5" />
-      </div>
-      <div class="container-fluid">
-        <FacultiesList class="row" />
-      </div>
-      <div class="container py-4">
-        <SelectedFaculty />
-      </div>
+      <section>
+        <div class="container">
+          <MainHeader class="row mb-5" />
+          <Faculties class="row my-5" />
+        </div>
+        <div class="container-fluid">
+          <FacultiesList class="row" />
+        </div>
+        <div class="container py-4">
+          <SelectedFaculty />
+        </div>
+      </section>
       <section class="bg-color-primary py-5">
         <div class="container">
           <UniYear />
           <Events />
         </div>
+      </section>
+      <section class="container">
+        <Courses />
+        <CoursesDetails />
       </section>
     </main>
     <footer class="pt-5">
@@ -39,6 +45,8 @@ import FacultiesList from "./components/FacultiesList.vue";
 import SelectedFaculty from "./components/SelectedFaculty.vue";
 import UniYear from "./components/UniYear.vue";
 import Events from "./components/Events.vue";
+import Courses from "./components/Courses.vue";
+import CoursesDetails from "./components/CoursesDetails.vue";
 
 export default {
   name: "App",
@@ -51,6 +59,8 @@ export default {
     SelectedFaculty,
     UniYear,
     Events,
+    Courses,
+    CoursesDetails,
   },
   data() {
     return {
