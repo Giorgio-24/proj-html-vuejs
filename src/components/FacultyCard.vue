@@ -26,8 +26,4 @@ export default {
 .img-white {
   filter: brightness(0) invert(1);
 }
-.image-primary {
-  filter: brightness(0) saturate(100%) invert(50%) sepia(67%) saturate(499%)
-    hue-rotate(121deg) brightness(99%) contrast(85%);
-}
 </style>
