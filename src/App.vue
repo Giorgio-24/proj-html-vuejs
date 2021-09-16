@@ -25,7 +25,7 @@
           <Events />
         </div>
       </section>
-      <section class="container my-5">
+      <section class="container py-5">
         <Courses class="row" />
         <CoursesDetails class="row" />
       </section>

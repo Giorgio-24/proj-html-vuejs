@@ -1,16 +1,21 @@
 <template>
   <div>
-    <h2 class="font-35">Latest Courses</h2>
-    <CoursesCard
-      v-for="(course, index) in courses"
-      :key="index"
-      :icon="course.icon"
-      :title="course.title"
-      :teacher="course.teacher"
-      :price="course.price"
-      :buttonText="course.buttonText"
-      :buttonColor="course.buttonColor"
-    />
+    <h2 class="col-12 font-35 my-5">Latest Courses</h2>
+    <div class="col-12">
+      <div class="row">
+        <CoursesCard
+          class="col-3"
+          v-for="(course, index) in courses"
+          :key="index"
+          :icon="course.icon"
+          :title="course.title"
+          :teacher="course.teacher"
+          :price="course.price"
+          :buttonText="course.buttonText"
+          :buttonColor="course.buttonColor"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
