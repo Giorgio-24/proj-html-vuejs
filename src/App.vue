@@ -10,6 +10,8 @@
       <div class="container">
         <MainHeader class="row mb-5" />
         <Faculties class="row my-5" />
+      </div>
+      <div class="container-fluid">
         <FacultiesList class="row" />
       </div>
     </main>
