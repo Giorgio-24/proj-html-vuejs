@@ -27,7 +27,7 @@
       </section>
       <section class="container py-5">
         <Courses class="row" />
-        <CoursesDetails class="row" />
+        <CoursesDetails class="row mt-5" />
       </section>
     </main>
     <footer class="pt-5">
