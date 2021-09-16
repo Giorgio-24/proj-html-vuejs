@@ -6,10 +6,10 @@
       showcasing universities, courses, seconday schools etc.
     </div>
     <div class="col-12 text-center mt-5">
-      <a href="#" class="big-button bg-yellow text-white fw-bold me-5"
+      <a href="#" class="big-button bg-yellow text-white me-5"
         ><i class="fas fa-search me-1"></i> Search courses</a
       >
-      <a href="#" class="big-button bg-white fw-bold color-red"
+      <a href="#" class="big-button bg-white color-red"
         ><i class="fas fa-user-plus me-1"></i> Apply for university</a
       >
     </div>

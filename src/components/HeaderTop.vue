@@ -30,7 +30,6 @@
           align-items-center
           bg-yellow
           text-white text-uppercase
-          fw-bold
         "
         >View courses</a
       >
