@@ -15,7 +15,7 @@
 <script>
 export default {
   name: "EventsCard",
-  props: ["key", "title", "date", "text", "buttonText", "buttonColor"],
+  props: ["title", "date", "text", "buttonText", "buttonColor"],
 };
 </script>
 
