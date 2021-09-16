@@ -1,6 +1,6 @@
 <template>
   <section class="row">
-    <h2 class="col-12 fw-bold text-white text-center">Key to your success</h2>
+    <h2 class="col-12 text-white text-center">Key to your success</h2>
     <div class="col-6 offset-3 fs-5 text-white text-center my-4">
       EduPrime is the most versatile WordPress theme for educational purposes,
       showcasing universities, courses, seconday schools etc.
@@ -29,5 +29,6 @@ section {
 
 h2 {
   font-size: 55px;
+  font-family: "Fredoka One", cursive;
 }
 </style>
