@@ -18,7 +18,9 @@
         <SelectedFaculty />
       </div>
       <section class="bg-color-primary py-5">
-        <UniYear />
+        <div class="container">
+          <UniYear />
+        </div>
       </section>
     </main>
     <footer class="pt-5">
