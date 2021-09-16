@@ -2,7 +2,7 @@
   <div id="app">
     <header class="pt-5">
       <div class="container">
-        <HeaderTop />
+        <HeaderTop :navElements="navElements" />
         <HeaderBottom />
       </div>
     </header>
@@ -34,6 +34,19 @@ export default {
     MainHeader,
     Faculties,
     FacultiesList,
+  },
+  data() {
+    return {
+      navElements: [
+        { name: "Home", hasList: true, active: true },
+        { name: "Courses", hasList: true, active: false },
+        { name: "About Us", hasList: false, active: false },
+        { name: "News", hasList: true, active: false },
+        { name: "Pages", hasList: true, active: false },
+        { name: "Contact", hasList: false, active: false },
+        { name: "Purchase", hasList: false, active: false },
+      ],
+    };
   },
 };
 </script>

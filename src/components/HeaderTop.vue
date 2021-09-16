@@ -41,18 +41,10 @@
 <script>
 export default {
   name: "HeaderTop",
+  props: ["navElements"],
   data() {
     return {
       logo: require("../assets/img/theme_eduprime_logo.png"),
-      navElements: [
-        { name: "Home", hasList: true, active: true },
-        { name: "Courses", hasList: true, active: false },
-        { name: "About Us", hasList: false, active: false },
-        { name: "News", hasList: true, active: false },
-        { name: "Pages", hasList: true, active: false },
-        { name: "Contact", hasList: false, active: false },
-        { name: "Purchase", hasList: false, active: false },
-      ],
     };
   },
 };
