@@ -4,7 +4,7 @@
       class="col-5 offset-1 display-flex flex-column"
       :class="invert === true ? 'order-1' : ''"
     >
-      <div class="col-1 icon-box">
+      <div class="col-1 icon-box" v-if="icon">
         <img class="img-fluid" :src="icon" alt="icon" />
       </div>
       <h2 class="col-11 fw-bold font-35 mt-3 mb-5">{{ title }}</h2>
