@@ -14,6 +14,7 @@
       <div class="container-fluid">
         <FacultiesList class="row" />
       </div>
+      <div class="container my-5"></div>
     </main>
     <footer class="pt-5">
       <div class="container"></div>
