@@ -50,14 +50,14 @@ export default {
         },
         {
           title: "Coaching Session",
-          date: "20 May 21:30 PM",
+          date: "24 Mar 18:00 PM",
           text: "Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor [...]",
           buttonText: "Find More",
           buttonColor: "bg-color-primary",
         },
         {
           title: "Coaching Session",
-          date: "20 May 21:30 PM",
+          date: "12 Feb 13:30 PM",
           text: "Lorem ipsum dolor sit amet, consecteur adipiscing elit, sed do eiusmod tempor [...]",
           buttonText: "Find More",
           buttonColor: "bg-color-primary",
