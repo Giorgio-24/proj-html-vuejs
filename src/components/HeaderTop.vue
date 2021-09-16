@@ -62,11 +62,4 @@ export default {
 #header-top {
   height: 65px;
 }
-.color-yellow {
-  color: $both-yellow;
-}
-
-.bg-yellow {
-  background-color: $both-yellow;
-}
 </style>
