@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="pt-5">
-      <div class="container">
+      <div class="container position-relative">
         <HeaderTop :navElements="navElements" />
         <HeaderBottom />
       </div>
@@ -9,7 +9,7 @@
     <main class="pt-5">
       <section>
         <div class="container">
-          <MainHeader class="row mb-5" />
+          <MainHeader id="main-header" class="row mb-5" />
           <Faculties class="row my-5" />
         </div>
         <div class="container-fluid">
@@ -130,4 +130,13 @@ export default {
 
 <style lang="scss">
 @import "assets/scss/_style.scss";
+
+#main-header {
+  a {
+    &:hover {
+      background-color: red;
+      color: $both-primary;
+    }
+  }
+}
 </style>

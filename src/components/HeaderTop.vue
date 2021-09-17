@@ -53,4 +53,11 @@ export default {
 #header-top {
   height: 65px;
 }
+
+a {
+  &:hover {
+    background-color: #fff;
+    color: $both-primary;
+  }
+}
 </style>
