@@ -38,7 +38,10 @@
     </main>
     <footer class="py-5 bg-color-primary">
       <div class="container">
-        <FooterContent :footerList="footerList" />
+        <FooterContent
+          :footerList="footerList"
+          :footerCategories="footerCategories"
+        />
       </div>
     </footer>
   </div>
@@ -110,6 +113,15 @@ export default {
             "My account",
           ],
         },
+      ],
+      footerCategories: [
+        { name: "economy" },
+        { name: "design" },
+        { name: "coaching" },
+        { name: "business" },
+        { name: "medicine" },
+        { name: "law" },
+        { name: "fitness" },
       ],
     };
   },
