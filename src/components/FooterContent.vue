@@ -1,5 +1,14 @@
 <template>
   <section class="row py-5">
+    <div
+      v-for="(theme, index) in themes"
+      :key="index"
+      class="position-absolute themes py-2 px-3 rounded clickable"
+    >
+      <img v-if="theme.icon" :src="theme.icon" alt="theme-icon" />{{
+        theme.text
+      }}
+    </div>
     <div class="col-4">
       <div class="row">
         <div class="col-9 logo-box clickable">
@@ -98,6 +107,10 @@ export default {
   data() {
     return {
       logo: require("../assets/img/theme_eduprime_logo.png"),
+      themes: [
+        { icon: "", text: "Purachase Theme" },
+        { icon: "", text: "Related Themes" },
+      ],
       socialIcons: [
         {
           icon: "fab fa-facebook-f",
@@ -125,20 +138,37 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.themes {
+  background-color: $both-dark-grey;
+  box-shadow: 0 13px 13px -8px #000;
+  color: $border-grey;
+  max-width: 160px;
+  font-size: 14px;
+
+  left: 30px;
+  bottom: 30px;
+
+  &:nth-of-type(1) {
+    left: 30px;
+    bottom: 85px;
+  }
+}
+
 h5 {
   font-family: "Fredoka One", cursive;
 }
 
 .category {
   max-width: 98px;
+  font-size: 14px;
 }
 
 .go-up {
   max-width: 40px;
   height: 40px;
 
-  bottom: 0;
-  right: 0;
+  bottom: 40px;
+  right: 30px;
   i {
     font-size: 24px;
   }
