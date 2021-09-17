@@ -32,6 +32,9 @@
       <div class="container-fluid bg-color-primary py-5">
         <Subscribe />
       </div>
+      <section class="container py-5">
+        <Partners />
+      </section>
     </main>
     <footer class="pt-5">
       <div class="container"></div>
@@ -51,6 +54,7 @@ import Events from "./components/Events.vue";
 import Courses from "./components/Courses.vue";
 import CoursesDetails from "./components/CoursesDetails.vue";
 import Subscribe from "./components/Subscribe.vue";
+import Partners from "./components/Partners.vue";
 
 export default {
   name: "App",
@@ -66,6 +70,7 @@ export default {
     Courses,
     CoursesDetails,
     Subscribe,
+    Partners,
   },
   data() {
     return {
