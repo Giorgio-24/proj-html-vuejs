@@ -29,6 +29,9 @@
         <Courses class="row" />
         <CoursesDetails class="row mt-5" />
       </section>
+      <div class="container-fluid bg-color-primary py-5">
+        <Subscribe />
+      </div>
     </main>
     <footer class="pt-5">
       <div class="container"></div>
@@ -47,6 +50,7 @@ import UniYear from "./components/UniYear.vue";
 import Events from "./components/Events.vue";
 import Courses from "./components/Courses.vue";
 import CoursesDetails from "./components/CoursesDetails.vue";
+import Subscribe from "./components/Subscribe.vue";
 
 export default {
   name: "App",
@@ -61,6 +65,7 @@ export default {
     Events,
     Courses,
     CoursesDetails,
+    Subscribe,
   },
   data() {
     return {
