@@ -36,8 +36,10 @@
         <Partners />
       </section>
     </main>
-    <footer class="pt-5">
-      <div class="container"></div>
+    <footer class="py-5 bg-color-primary">
+      <div class="container">
+        <FooterContent />
+      </div>
     </footer>
   </div>
 </template>
@@ -55,6 +57,7 @@ import Courses from "./components/Courses.vue";
 import CoursesDetails from "./components/CoursesDetails.vue";
 import Subscribe from "./components/Subscribe.vue";
 import Partners from "./components/Partners.vue";
+import FooterContent from "./components/FooterContent.vue";
 
 export default {
   name: "App",
@@ -71,6 +74,7 @@ export default {
     CoursesDetails,
     Subscribe,
     Partners,
+    FooterContent,
   },
   data() {
     return {
