@@ -2,7 +2,7 @@
   <section class="row py-5">
     <div class="col-4">
       <div class="row">
-        <div class="col-10 logo-box clickable">
+        <div class="col-9 logo-box clickable">
           <img class="img-fluid" :src="logo" alt="EduPrime-logo" />
         </div>
         <div class="col-12 text-white my-4">
@@ -38,7 +38,7 @@
           :buttonIcon="input.buttonIcon"
           :columnClass="input.columnClass"
         />
-        <h5 class="col-12 text-white text-end mt-4">Search Categories</h5>
+        <h5 class="col-12 text-white text-end mt-5 mb-4">Search Categories</h5>
         <div class="col-12">
           <div class="row justify-content-end">
             <div
