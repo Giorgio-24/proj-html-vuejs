@@ -38,7 +38,7 @@
     </main>
     <footer class="py-5 bg-color-primary">
       <div class="container">
-        <FooterContent />
+        <FooterContent :footerList="footerList" />
       </div>
     </footer>
   </div>
@@ -86,6 +86,30 @@ export default {
         { name: "Pages", hasList: true, active: false },
         { name: "Contact", hasList: false, active: false },
         { name: "Purchase", hasList: false, active: false },
+      ],
+      footerList: [
+        {
+          listTitle: "Get Eduprime",
+          listItems: [
+            "Request a website",
+            "Browse Themes",
+            "Payment options",
+            "Support System",
+            "Checkout",
+            "Purchase Theme",
+          ],
+        },
+        {
+          listTitle: "Networking",
+          listItems: [
+            "Purchase Theme",
+            "Our Benefits",
+            "Our team",
+            "Our services",
+            "Other Products",
+            "My account",
+          ],
+        },
       ],
     };
   },

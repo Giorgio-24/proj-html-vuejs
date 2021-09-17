@@ -6,7 +6,15 @@
       overviews. Iterative approaches to corporate strategy.
     </div>
     <div class="col-12 mt-2 mb-5">
-      <div class="logos-row row align-items-center justify-content-center">
+      <div
+        class="
+          logos-row
+          row
+          align-items-center
+          justify-content-center
+          clickable
+        "
+      >
         <PartnersLogos
           v-for="(partner, index) in partners"
           :key="index"

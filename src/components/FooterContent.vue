@@ -2,7 +2,7 @@
   <section class="row">
     <div class="col-4">
       <div class="row">
-        <div class="col-10 logo-box">
+        <div class="col-10 logo-box clickable">
           <img class="img-fluid" :src="logo" alt="EduPrime-logo" />
         </div>
         <div class="col-12 text-white my-4">
@@ -16,16 +16,17 @@
               :key="index"
               :icon="socialIcon.icon"
               :borderStyle="socialIcon.borderStyle"
-              class="col-3"
+              class="col-3 clickable"
             />
           </div>
         </div>
       </div>
     </div>
     <div class="col-4">
-      <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6"></div>
+      <div class="row text-white">
+        <div v-for="(list, index) in footerList" :key="index" class="col-6">
+          <List :listTitle="list.listTitle" :listItems="list.listItems" />
+        </div>
       </div>
     </div>
     <div class="col-4"></div>
@@ -34,11 +35,14 @@
 
 <script>
 import SocialLogo from "./SocialLogo.vue";
+import List from "./List.vue";
 export default {
   name: "FooterContent",
   components: {
     SocialLogo,
+    List,
   },
+  props: ["footerList"],
   data() {
     return {
       logo: require("../assets/img/theme_eduprime_logo.png"),
