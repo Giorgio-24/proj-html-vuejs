@@ -1,5 +1,5 @@
 <template>
-  <section class="row">
+  <section class="row py-5">
     <div class="col-4">
       <div class="row">
         <div class="col-10 logo-box clickable">
@@ -66,6 +66,20 @@
         </div>
       </div>
     </div>
+    <a
+      class="
+        go-up
+        text-white
+        bg-yellow
+        rounded-circle
+        d-flex
+        align-items-center
+        justify-content-center
+        position-absolute
+      "
+      href="#"
+      ><i class="fas fa-angle-up"></i
+    ></a>
   </section>
 </template>
 
@@ -117,5 +131,16 @@ h5 {
 
 .category {
   max-width: 98px;
+}
+
+.go-up {
+  max-width: 40px;
+  height: 40px;
+
+  bottom: 0;
+  right: 0;
+  i {
+    font-size: 24px;
+  }
 }
 </style>

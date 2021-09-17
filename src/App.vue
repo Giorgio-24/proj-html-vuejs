@@ -36,7 +36,7 @@
         <Partners />
       </section>
     </main>
-    <footer class="py-5 bg-color-primary">
+    <footer class="py-5 bg-color-primary position-relative">
       <div class="container">
         <FooterContent
           :footerList="footerList"
